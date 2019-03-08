@@ -1,0 +1,67 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: sans-serif;
+  font-family: 'Merriweather', serif;
+
+}
+
+h1{
+  font-size: 6rem;
+  margin-top:  50px ;
+  font-family: 'Dancing Script', cursive;
+}
+h2{
+  font-family: 'Sacramento', cursive;
+  font-size: 2.5rem;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+}
+.top{
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+
+}
+.middle{
+  height: 200px;
+  width: 200px;
+  background-color: red;
+}
+
+.bottom{
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud{
+  position: absolute;
+}
+p{
+    display: inline-block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+/*
+CSS Positioning
+1. Content is Everything
+2. Order Comes from Code (HTML)( totally depends on order you provide)
+3. Children Sit on Parents (Suppose if we introduce a div and then give them the background color
+and then add heading tag so the heading tag will be on div tag div h1 span from top to bottom of hierarchy )
+4. Position
+  a. Static (Default)
+  b. Realative (All the elements keep the same position except the element which is provided)
+  c. Absolute ()
+  d. Fixed (best for nav and side bar it make the element fixed and you can scroll easily)
+
+*/
